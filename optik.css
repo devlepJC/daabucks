@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Ändere von 'center' auf 'flex-start' */
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url('coffee.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 40px; /* Füge einen oberen Abstand hinzu, um die Mitte zu zentrieren */
+    color:#876443; /* Ändere die Textfarbe auf Schwarz */
+
+}
+
+h2 {
+    font-size: 24px;
+    color: #bf9d7d; /* Ändere die Textfarbe auf Schwarz */
+
+}
